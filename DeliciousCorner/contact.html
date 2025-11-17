@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | TasteBuds Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+     *{
+        margin: 0;
+        padding: 0;
+    
+    }
+    body{
+        font-family: sans-serif;
+        background-color: white;
+        color: black;
+    }
+    header{
+        background-color: red;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 15px 40px;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin:10px;
+        font-weight: 500px;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #c62828;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a91d1d;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+h2{
+    text-align: center;
+    padding: 30px;
+}
+</style>
+<body>
+
+  <header>
+    <h1>Delicious Corner</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+</main>
+
+  <footer>
+    <p>© 2025 Delicious Corner Restaurant | All Rights Reserved</p>
+  </footer>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKFy-NO0zt3TZpfLLXj1uBmy0PCar4vziz8A&s" height="300px" width="100%">
+</body>
+</html>

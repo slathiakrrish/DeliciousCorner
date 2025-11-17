@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    
+    }
+    body{
+        font-family: sans-serif;
+        background-color: white;
+        color: black;
+    }
+    header{
+        background-color: red;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 15px 40px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin:10px;
+        font-weight: 500px;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    .hello{
+        height: fit-content;
+        background: url(https://img.freepik.com/premium-photo/photo-closeup-shot-delicious-food_829042-89.jpg) center/cover no-repeat;
+        text-align: center;
+        color: whitesmoke;
+        padding: 200px 50px ;
+    }
+    .hii{
+        padding-top: 15px;
+        font-size: 36px;
+        text-align: center;
+    }
+    .hii p{
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin: 10px 0;
+        font-size: 18px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .btn{
+        display: inline-block;
+        background-color: white;
+        color: #c62828;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    .btn:hover{
+        border: 1px solid white;
+    }
+    .btn:active{
+        opacity: 0.8px;
+    }
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+</style>
+<body>
+    <header>
+        <h1>
+            Delicious Corner
+        </h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="hello">
+        <H2>Welcome To Delicious Corner</H2>
+        <p>
+            Delicious meals with unforgetable taste.
+        </p>
+        <a href="menu.html" class="btn">Explore Menu</a>
+    </main>
+    <main class="hii">
+        <h1> Why choose us?</h1>
+        <p>
+            Choose us for our passion our freshness and our promise to make every meal unforgetable
+        </p>
+    </main>
+    <footer>
+        <p>
+            @2025 Delicious Corner Restaurant|All rights reserved
+        </p>
+    </footer>
+</body>
+</html>

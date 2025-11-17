@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    color: white;
+    }
+    h2{
+        padding-bottom: 30px;
+    }
+    body{
+        font-family: sans-serif;
+        background-color: white;
+        color: black;
+    }
+    header{
+        background-color: red;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 15px 40px;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin:10px;
+        font-weight: 500px;
+    }
+    .menu{
+        padding:60px 20px;
+        text-align: center;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    .menu-grid{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .card{
+        background-color: light red;
+        padding: 20px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 0 1px 1px 1px;
+    }
+    .card:hover{
+        border: 0.1px solid black;
+        transition: 0.5 ease-out;
+    }
+    .card h3{
+        color: rgb(213, 241, 89);
+    }
+    p{
+        font-size: 20px;
+    }
+    .card span{
+font-weight: bold;
+    }
+    footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 150px;
+}
+    body{
+        background: url(https://t4.ftcdn.net/jpg/04/02/34/15/360_F_402341530_DY7SrGqLiymTMx0WAHR1pUr65EvxEUjI.jpg)center/cover no-repeat;
+    }
+</style>
+<body>
+    <header>
+        <h1>
+            Delicious Corner
+        </h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="card">
+                <img src="https://foodess.com/wp-content/uploads/2022/10/Foodess-Best-Butter-Chicken-1-2.jpg" width="200px">
+                <h3>Butter Chicken</h3>
+                <p>
+                    Rich and creamy tomato-based chicken curry.
+                </p>
+                <span>
+                    Rs.349
+                </span>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSepnkkmLxKc5hjWXXUVAEIDYjPxKV_RqATw&s">
+                <h3>Cold Coffee</h3>
+                <p>
+                    Refreshing chilled coffee blended to perfection
+                </p>
+                <span>Rs.120</span>
+            </div>
+            <div class="card">
+                <img src="https://static.vecteezy.com/system/resources/previews/047/424/468/non_2x/ice-cream-cup-isolated-on-transparent-background-free-png.png" width="200px">
+                <h3>Ice cream cup</h3>
+                <p>
+                    Smooth and creamy ice cream in various flavours
+                </p>
+                <span>
+                    Rs.70
+                </span>
+            </div>
+            <div class="card">
+                <img src="https://busycreatingmemories.com/wp-content/uploads/2023/04/DX9A0224-735x490.jpg" width="250px">
+                <h3>
+                    French fries
+                </h3>
+                    <p>
+                        Golden,crispy fries served with seasoning
+                    </p>
+                    <span>
+                        Rs.100
+                    </span>
+            </div>
+            <div class="card">
+                <img src="https://suhana.com/cdn/shop/articles/paneer-tikka-2-1.png?v=1709544706" width="240px">
+                <h3>
+                    Paneer Tikka
+                </h3>
+                <p>
+                    Soft paneer cubes grilled with spices and herbs.
+                </p>
+                <span>
+                    Rs.200
+                </span>
+            </div>
+        </div>
+        <footer>
+            <p>
+                @2025 Delicious Corner Restaurant|All rights reserved
+            </p>
+        </footer>
+    </main>
+    </body>
